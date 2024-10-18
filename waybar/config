@@ -1,0 +1,36 @@
+{
+    "include": [
+        "$HOME/.config/waybar/Modules",
+        "$HOME/.config/waybar/ModulesWorkspaces",
+        "$HOME/.config/waybar/ModulesCustom",
+        "$HOME/.config/waybar/ModulesGroups"
+    ],
+    "layer": "top",
+    "mode": "dock",
+    "exclusive": true,
+    "passthrough": false,
+    "position": "top",
+    "spacing": 0,
+    "fixed-center": true,
+    "margin-top": 1,
+    "margin-left": 1,
+    "margin-right": 1,
+    "margin-bottom": 1,
+    "width": 1270,
+    "height": 15,
+    "modules-left": [
+        "hyprland/workspaces#rw",
+        "mpris"
+    ],
+    "modules-center": [
+        "clock#4"
+    ],
+    "modules-right": [
+        "custom/discord",
+        "group/audio-light",
+        "network",
+        "bluetooth",
+        "group/motherboard",
+        "custom/power"
+    ]
+}

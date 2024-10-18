@@ -1,0 +1,20 @@
+"backlight": {
+    "device": "intel_backlight",
+    "rotate": 0,
+    "format": "{icon}",
+    "format-icons": [
+        "󰃞",
+        "󰃝",
+        "󰃟",
+        "󰃠"
+    ],
+    "scroll-step": 1,
+    "min-length": 2
+},
+"backlight/slider": {
+    "min": 0,
+    "max": 100,
+    "rotate": 0,
+    "device": "intel_backlight",
+    "scroll-step": 1,
+},
